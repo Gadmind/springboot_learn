@@ -8,10 +8,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @EnableAsync
-    public class ScheduledApplication {
+public class SpringbootQuartzApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ScheduledApplication.class, args);
+        SpringApplication.run(SpringbootQuartzApplication.class, args);
     }
 
 }
